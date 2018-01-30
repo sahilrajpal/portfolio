@@ -1,0 +1,221 @@
+#main {
+		height:100%;
+		width:50%;
+		background-color:rgba(0,0,0,0.7);
+		border-radius:6px;
+		<--opacity:0.6;
+		color:white;
+		font-family:"Comic Sans MS";
+		}
+body {	
+		background:url("bg.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+#fb	{	position:absolute;
+		left:570px;
+		top:715px;
+		height:30px;
+		width:30px;
+			
+	}
+#twitter	{
+				position:absolute;
+				left:610px;
+				top:715px;
+				height:30px;
+				width:30px;
+			
+	}
+.screen {
+		
+		height:0px;
+		width:500px;
+		border-radius:6px;
+		background-color:red;
+		position:absolute;
+		left:500px;
+		top:150px;
+		transition:height 5s;
+}
+img {
+		height:200px;
+		width:200px;
+		
+	}
+#img1{
+	height:0px;
+		width:50%;
+		border-radius:6px;
+		background-color:red;
+		position:absolute;
+		left:0px;
+		top:0px;
+		transition:height 2s;
+}
+#img2{height:0px;
+		width:50%;
+		border-radius:6px;
+		background-color:red;
+		position:absolute;
+		left:0px;
+		top:0px;
+		transition:height 2s;}
+#img3{height:0px;
+		width:50%;
+		border-radius:6px;
+		background-color:red;
+		position:absolute;
+		left:0px;
+		top:0px;
+		transition:height 2s;}
+	#instagram	{
+				position:absolute;
+				left:650px;
+				top:715px;
+				height:30px;
+				width:30px;
+				
+	}
+	#linkedin  {
+		
+				position:absolute;
+				left:690px;
+				top:715px;
+				color:#006fa6;
+				font-size:30px;
+	}
+h1		{
+	
+		text-align:center;
+		font-family: "chiller";
+		font-size:80px;
+	}
+h2	{
+		text-align:center;
+		width:100px;
+	
+	}
+
+.box	{
+		border-radius:10px;
+		height:200px;
+		width:150px;
+		background-color:rgba(192,192,192,0.5);
+		position:absolute;
+		padding:20px;
+		}
+#close	{
+		color:grey;
+		position:absolute;
+		font-size:0px;
+		left:48%;
+		top:0px;
+		transition: font-size 2s;
+}
+#projects {
+		left:650px;
+		top:200px;
+		height:70px;
+		width:90px;
+		padding:10px;
+		color:white;
+		
+		}
+#skills	{
+		left:100px;
+		top:160px;
+		
+		}
+#link   {
+		margin:50px;
+	
+}
+#crypto  {
+		position:absolute;
+		left:-50%;
+		top:7px;
+		display:inline-block;
+		height:745px;
+		width:50%;
+		background-color:rgba(0,0,0,0.7);
+		border-radius:6px;
+		<--opacity:0.6;
+		color:white;
+		font-family:"Comic Sans MS";
+		transition:left 3s;
+}
+#images {
+	
+		position:absolute;
+		top:50%;
+		
+}
+#me 	{
+		height:300px;
+		width:190px;
+		position:absolute;
+		left:380px;
+		top:170px;
+		border:1.5px solid black;
+		border-radius:5px;
+}
+#hobbies {
+	
+	
+		left:100px;
+		top:450px;
+		
+}
+#contact	{
+		
+	border-radius:10px;
+		height:150px;
+		width:350px;
+		background-color:rgba(192,192,192,0.5);
+		position:absolute;
+		left:350px;
+		top:500px;
+		padding:20px;	
+}
+.bgtext{color:white;
+		opacity:0.1;}
+#hardworker	{
+		font-size:70px;
+		position:absolute;
+		top:200px;
+		transform:rotate(45deg);
+	
+}
+#motivated	{
+		font-size:50px;
+		position:absolute;
+		top:400px;
+		left:100px;
+		transform:rotate(30deg);
+	
+}
+#teamplayer	{
+		font-size:70px;
+		position:absolute;
+		top:400px;
+		left:300px;
+		transform:rotate(-30deg);
+	
+}
+#persistent	{
+		font-size:80px;
+		position:absolute;
+		top:10px;
+		left:300px;
+		transform:rotate(10deg);
+	
+}
+#focused	{
+		font-size:90px;
+		position:absolute;
+		top:500px;
+		left:150px;
+		transform:rotate(-10deg);
+	
+}

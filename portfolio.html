@@ -1,0 +1,74 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div id="main" onclick="close1()">	<h1>Sahil Rajpal</h1>
+		 
+		 
+<a href="https://www.facebook.com/sahil.rajpal.3760" target="blank"><img src="fb.png" id="fb"></a>
+	<a href="https://twitter.com/dis_is_sahil" target="blank"><img src="twitter.png" id="twitter"></a>	
+		<a href="https://www.instagram.com/sahil.rajpal07/" target="blank"><img src="instagram1.png" id="instagram"></a>	
+			<a href="https://www.linkedin.com/in/sahil-rajpal-ab71b0127/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true" id="linkedin"></i></a>	
+<img src="s.png" id="me">
+<div id="skills" class="box"> <h2>Skills</h2>
+<p> C++  &nbsp; &nbsp; &nbsp; &nbsp;Java</br></br> &nbsp; &nbsp;HTML &nbsp; &nbsp; &nbsp;CSS</br></br> &nbsp; &nbsp; Javascript</p> 
+</div> 
+<div id="hobbies" class="box"> <h2>Hobbies</h2>
+<p> Football  &nbsp; &nbsp; &nbsp; &nbsp;Coding</br></br> &nbsp; Music &nbsp; &nbsp; &nbsp;Gaming</br></br> &nbsp; &nbsp; &nbsp;  Reading</p> 
+</div>
+<a href="#" onclick="change()"><div id="projects" class="box"><h2>Project</h2>
+</div></a>
+
+<div id="contact"> <h2>Contact Me</h2>
+<p> Email &nbsp; : &nbsp;rajpalsahil96@gmail.com  </br>Mob no.  : &nbsp; 7347643648</p> </div>
+<p class="bgtext" id="hardworker">Hard Worker</p>
+<p class="bgtext"id="motivated">Motivated</p>
+<p class="bgtext"id="teamplayer">Team Player</p>
+<p class="bgtext"id="persistent">Persistent</p>
+<p class="bgtext"id="focused">Focused</p>
+</div>
+</div>
+<div id="crypto" > 
+	<h1>The Cryptobaba</h1>
+	<p>The Cryptobaba is an ongoing project with the aim to become the cross reference database for the cryptocurrencies being traded in the national and international cryptocurrency exchanges.  </p>
+<div id="images"><a href="#" onclick="popup(1)"><img src="Screenshot (21).png" style="margin-left:10px;"> </a> <a href="#" onclick="popup(2)"><img style="margin-left:10px;"src="Screenshot (22).png"> </a><a onclick="popup(3)" href="#"> <img src="Screenshot (23).png" style="margin-left:10px;"></a><p id="link">Github link : <a style="color:white;"href="https://github.com/sahilrajpal/crypto">https://github.com/sahilrajpal/crypto</a></p> </div></div>
+<img src="Screenshot (21).png" id="img1"><img src="Screenshot (22).png" id="img2"><img src="Screenshot (23).png" id="img3">
+
+<a href="#"><i class="fa fa-times" id="close" aria-hidden="true" onclick="close1()"></i></a>
+<script>
+function popup(i){
+document.getElementById("img"+i).style.height="80%";
+document.getElementById("close").style.fontSize="30px";
+if(i==1){close(2);
+close(3);}
+if(i==2){close(1);
+close(3);}
+if(i==3){close(2);
+close(1);}
+}
+function close(i){
+document.getElementById("img"+i).style.height="0px";
+
+}
+function close1(){
+document.getElementById("img1").style.height="0px";
+document.getElementById("img2").style.height="0px";
+document.getElementById("img3").style.height="0px";
+document.getElementById("close").style.fontSize="0px";
+}
+function change(){
+document.getElementById("crypto").style.left="50%";
+
+}
+</script>
+</body>
+
+
+
+
+</html>
